@@ -1,0 +1,17 @@
+PODS:
+  - LayoutSwiftly (0.1.0)
+  - Quick (0.6.0)
+
+DEPENDENCIES:
+  - LayoutSwiftly (from `../`)
+  - Quick
+
+EXTERNAL SOURCES:
+  LayoutSwiftly:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LayoutSwiftly: 88f701facf623e9966c7ab408a82865fea474fe3
+  Quick: 563686dbcf0ae0f9f7401ac9cd2d786ee1b7f3d7
+
+COCOAPODS: 0.38.2
