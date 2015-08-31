@@ -1,9 +1,11 @@
 PODS:
-  - LayoutSwiftly (0.1.0)
+  - LayoutSwiftly (1.0.0)
+  - Nimble (2.0.0-rc.3)
   - Quick (0.6.0)
 
 DEPENDENCIES:
   - LayoutSwiftly (from `../`)
+  - Nimble (= 2.0.0-rc.3)
   - Quick
 
 EXTERNAL SOURCES:
@@ -11,7 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LayoutSwiftly: 88f701facf623e9966c7ab408a82865fea474fe3
+  LayoutSwiftly: 5e6397c1ce7bda6ed8091f36fd84d65ad30008dc
+  Nimble: 9dff98ee195ffe7351d3b2fb01d3a1420fd97948
   Quick: 563686dbcf0ae0f9f7401ac9cd2d786ee1b7f3d7
 
 COCOAPODS: 0.38.2
