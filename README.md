@@ -3,7 +3,7 @@
 [![CI Status](http://img.shields.io/travis/JamieREvans/LayoutSwiftly.svg?style=flat)](https://travis-ci.org/JamieREvans/LayoutSwiftly)
 [![Version](https://img.shields.io/cocoapods/v/LayoutSwiftly.svg?style=flat)](http://cocoapods.org/pods/LayoutSwiftly)
 [![License](https://img.shields.io/cocoapods/l/LayoutSwiftly.svg?style=flat)](http://cocoapods.org/pods/LayoutSwiftly)
-[![Platform](https://img.shields.io/cocoapods/p/LayoutSwiftly.svg?style=flat)](http://cocoapods.org/pods/LayoutSwiftly)
+[![Platform](https://img.shields.io/badge/platform-iOS-red.svg?style=flat)](http://cocoapods.org/pods/LayoutSwiftly)
 
 ## Usage
 
@@ -26,7 +26,7 @@ private func buildUI()
 private func addViewWithColor(color: UIColor) -> UIView
 {
     let coloredView = UIView()
-    coloredView.translatesAutoresizingMaskIntoConstraints = false;
+    coloredView.translatesAutoresizingMaskIntoConstraints = false
     coloredView.backgroundColor = color
     self.view.addSubview(coloredView);
 
